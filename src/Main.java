@@ -4,6 +4,7 @@ public class Main {
         int birthMonth = 0;
         double LOWEST_MONTH = 1;
         double HIGHEST_MONTH = 12;
+        System.out.println("What is your birth month?");
         birthMonth = 15;
         if (LOWEST_MONTH <= birthMonth && birthMonth <= HIGHEST_MONTH)
         {
